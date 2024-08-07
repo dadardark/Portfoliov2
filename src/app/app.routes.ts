@@ -9,6 +9,7 @@ import { DietappComponent } from './dietapp/dietapp.component';
 import { SscComponent } from './ssc/ssc.component';
 import { WebdevComponent } from './webdev/webdev.component';
 import { FutureComponent } from './future/future.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 export const routes: Routes = [
@@ -21,6 +22,7 @@ export const routes: Routes = [
     { path: 'sscPage', component:SscComponent},
     { path: 'webdevPage', component:WebdevComponent},
     { path: 'futurePage', component:FutureComponent},
+    { path: 'contactPage', component:ContactComponent},
     { path: '', redirectTo: '/homePage', pathMatch: 'full' },
     { path: '**', redirectTo: '/homePage' }
 ];
