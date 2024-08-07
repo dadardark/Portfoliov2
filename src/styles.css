@@ -277,6 +277,13 @@ body img{
     margin-bottom: 10%;
 }
 
+.dietFoot{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    height: 400px;
+    margin-bottom: 10%;
+}
 footer{
     text-align: center;
     font-family: monospace;
