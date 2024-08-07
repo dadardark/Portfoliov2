@@ -1,0 +1,49 @@
+<div class="snakeBodyText">
+    <h1>Bank Teller</h1>
+</div>
+
+<div class="sbtDetails"> 
+    <h3>Language</h3>
+    <img src="c.png">
+    <h3>Source Code</h3>
+    <a href="https://github.com/dadardark/Bank-Teller" target="_blank" class="gitLink"><img src="git.png"></a>
+</div>
+
+<div class="snakeBodyGif"> 
+    <img src="bank gif.gif" class="snakeGif">
+    <img src="bankteller.jpeg" class="snakeGif">
+</div>
+
+<div class="snakeBodyExplain">
+    <h3>Bank Teller was a project I completed whilst learning about <span class="highlightWord">mutex locks</span> 
+        and the <span class="highlightWord">pThreads class</span> in C.<br> But what does this have to do with programming?<br><br>
+        Well, picture this:
+    </h3>
+</div>
+
+<div class="snakeBodyExplain2">
+    <h3>Imagine you have 4 bank tellers and a line of 100 customers. <br><br>
+        •Each teller can serve <span class="highlightWord"> 1 customer at a time</span>. <br>
+        •Each customer can choose to either <span class="highlightWord">Withdraw, Deposit or Inquire</span>.<br>
+        •Each action takes a <span class="highlightWord">different set time.</span><br>
+        <br>
+        The problem?<br><br>
+        •How do you <span class="highlightWord">most efficiently</span> assign all 100 customers to the tellers,
+        ensuring no teller is <span class="highlightWord">never not serving a customer?</span><br>
+        •How do you ensure no customer is assigned to a teller whilst the <span class="highlightWord">teller is busy?</span><br>
+        •What happens if <span class="highlightWord">2 tellers</span> finish with their customer at the <span class="highlightWord">same time?</span><br>
+
+    </h3>
+</div>
+
+<div class="snakeBodyGif2"> 
+    <img src="mutex.gif" class="snakeGif">
+</div>
+
+<div class="snakeBodyExplain">
+    <h3>The answer is <span class="highlightWord"> with mutexes!</span><br><br> Designed to simulate <span class="highlightWord"> 
+        multithread processing and shared resource</span> usage in computer operating systems through the analogy of a bank teller 
+        scenario. The program uses <span class="highlightWord">simple and broadcast mutex locks</span> from the pthreads library 
+        to achieve synchronization between threads and allow for multiple threads to access a  <span class="highlightWord">shared resource safely</span>.
+    </h3>
+</div>
