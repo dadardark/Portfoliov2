@@ -102,7 +102,7 @@ body img{
     display: flex;
     margin-left:20% ;
     margin-right: 20%;
-    height: 350px;
+    height: 250px;
     margin-top: 5%;
     margin-bottom: 5%;
     justify-content: center;
@@ -135,11 +135,11 @@ body img{
     display: flex;
     margin-left: 20%;
     margin-right: 20%;
-    height: 500px;
+    height: 350px;
     margin-top: 5%;
     margin-bottom: 10%;
-    justify-content: space-between;
-    gap:5%;
+    justify-content: center;
+    gap:20%;
 }
 
 .projects{
@@ -208,7 +208,7 @@ body img{
 
 .snakeBodyGif{
     display: flex;
-    height: 512px;
+    height: 400px;
     justify-content: center;
     gap:7%;
     padding-bottom: 2%;
@@ -216,7 +216,7 @@ body img{
 
 .snakeBodyGif2{
     display: flex;
-    height: 512px;
+    height: 400px;
     justify-content: center;
     gap:7%;
     padding-bottom: 4%;
@@ -261,6 +261,7 @@ body img{
     justify-content: center;
     gap:64px;
     margin-bottom: 10%;
+    height: 400px;
 }
 
 .tttBodyGif{
@@ -276,13 +277,31 @@ body img{
     justify-content: center;
     gap:128px;
     margin-bottom: 10%;
+    height: 500px;
+}
+
+.ssPic{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    gap:7%;
+    padding-bottom: 4%;
+    padding-top: 4%;
 }
 
 .dietFoot{
     display: flex;
     justify-content: center;
     gap: 64px;
-    height: 400px;
+    height: 500px;
+    margin-bottom: 10%;
+}
+
+.dietFoot2{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    height: 700px;
     margin-bottom: 10%;
 }
 
